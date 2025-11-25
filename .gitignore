@@ -1,0 +1,42 @@
+# Системные файлы macOS
+.DS_Store
+.localized
+
+# Скриншоты и медиафайлы (если не нужны в репозитории)
+*.png
+*.jpg
+*.mp4
+*.pdf
+*.docx
+
+# Другие системные и временные файлы
+*.save
+*.log
+*.tmp
+*.bak
+
+# Папки с конфигами и кэшем
+.vscode/
+.node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Другие ненужные папки (адаптируйте под проект)
+../../../*
+../../../../../*
+../../../../*
+../../../*
+../../*
+../*
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Applications/
+spicetify-themes/
+test.db
