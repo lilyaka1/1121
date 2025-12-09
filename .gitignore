@@ -1,35 +1,37 @@
-# Системные файлы macOS
-.DS_Store
-.localized
-
-# Другие системные и временные файлы
-*.save
-*.log
-*.tmp
-*.bak
-
-# Папки с конфигами и кэшем
-.vscode/
-.node_modules/
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.npm
+.eslintcache
 
-# Другие ненужные папки (адаптируйте под проект)
-../../../*
-../../../../../*
-../../../../*
-../../../*
-../../*
-../*
-Desktop/
-Documents/
-Downloads/
-Library/
-Movies/
-Music/
-Pictures/
-Public/
-Applications/
-spicetify-themes/
-test.db
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.backup
+.cache
